@@ -1,4 +1,4 @@
-This repository contains MATLAB reconstruction code for 3D stack-of-spiral real-time MRI. The code is being used in for the paper "*Three dimensional real-time MRI for the comprehensive evaluation of wrist kinematics*" that has been submitted to *Magnetic Resonance in Medicine*.
+This repository contains MATLAB reconstruction code for 3D stack-of-spiral real-time MRI. The code is being used in for the paper "***Three dimensional real-time MRI for the comprehensive evaluation of wrist kinematics***" that has been submitted to *Magnetic Resonance in Medicine*.
 
 The script ```recon_rt_3d.m``` is the main reconstruction code. In the begining, several parameters are set, and followed by data sorting, sensitivity map estimation, and nonlinear conjugate gradient decent solver. The reconstruction can be run on GPU but a large GPU memory is required to store the internediate images and update terms. 
 
